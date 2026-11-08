@@ -1,0 +1,15 @@
+{
+  "name": "gs-rise-odontologia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check app.js && node --check config.js && node --check server.js && node --check scripts/build.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.0"
+  }
+}

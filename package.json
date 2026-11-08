@@ -1,0 +1,10 @@
+{
+  "name": "clinica-odontologica-workspace",
+  "private": true,
+  "scripts": {
+    "start": "node gs-rise-odontologia/server.js",
+    "dev": "node gs-rise-odontologia/server.js",
+    "build": "npm --prefix gs-rise-odontologia run build",
+    "check": "npm --prefix gs-rise-odontologia run check"
+  }
+}
